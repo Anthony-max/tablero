@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="titulo d-flex">
+                    <div class="align-self-start"><img src="img/logo.png" height="30px" alt=""> </div>
+                    <div class="align-self-baseline"> <p>Tablero de reportes</p> </div>
+                </div>
+                
+            </div>
+        </div>
+            <div class="row">
+                <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" >
+                                
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-ride="hiden" >
+                                    <img src="img/1.jpg" class="d-block w-100" alt="...">
+                                </div>
+
+                                <div class="carousel-item" >
+                                    <img src="img/2.jpg" class="d-block w-100" alt="...">
+                                </div>
+
+                                <div class="carousel-item" >
+                                    <img src="img/3.jpg" class="d-block w-100" alt="...">
+                                </div>
+
+                            </div>
+
+                           
+                                
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col">
+                        <div class="contenedor d-flex justify-content-center">
+                            <a class="active btn fa fa-pause " id="boton"></a>
+                            <select class="custom-select" style="width: 50px;" id="velocidad">
+                                <option value="1000">1s</option>
+                                <option value="2000">2s</option>
+                                <option value="2500">2,5s</option>
+                                <option value="3000">3s</option>
+                                <option value="4000" selected>4s</option>
+                                <option value="5000">5s</option>
+                            </select>
+                            
+                            <div>
+                                <a class="active indicadores" data-target="#carouselExampleIndicators" data-slide-to="0"></a>
+                                <a class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="1"></a>
+                                <a class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="2"></a>
+                            </div>
+                                
+                        
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    
+    
+    <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="javascript/eventos.js"></script>
+</body>
+</html>/

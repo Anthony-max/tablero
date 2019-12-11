@@ -2,35 +2,39 @@
     margin: 0px;
     padding: 0px;
 }
-
 body{
     background: white;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .contenedor
 {
-    margin-bottom:20px;
+    margin-top:2px;
+    padding: 10px;
     background:rgb(241, 73, 73);
     color:black;
+    border: 100px;
 }
 
 .btn
 {
     padding:10px;
     margin:10px;
-    border: 2px solid #4fb560;
+    border: 2px solid white;
     border-radius: 10px;
     background: none;
 }
 
 .btn:hover{
-    background: #4fb560;
+    background:white;
     color: white;
 }
 
 .titulo
 {
-    margin:0px 0px 30px 0;
+    margin:0px 0px 20px 0;
     border-bottom:2px solid rgb(150, 1, 1);
     padding: 10px;
 }
@@ -44,18 +48,3 @@ body{
     margin-top:10px;
 }
 
-.titulo p
-{
-    font-family:'Fredoka One', cursive;
-    margin-left: 400px;
-    font-size: 30px;
-    color: black;
-}
-
-.indicadores
-{
-    text-decoration: none;
-    
-    border: 1px solid black;
-    border-radius: 100%;
-}
