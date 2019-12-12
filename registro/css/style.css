@@ -68,16 +68,18 @@ html,body{
 
 .titulo
 {
-    margin:0px 0px 20px 0;
+    margin:0px;
     border-bottom:2px solid rgb(150, 1, 1);
     padding: 5px;
 }
 
 .titulo p{
-    font-family:'lobster', cursive;
-    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
     margin:0;
     padding:0;
+    padding-top:10px;
+    color: rgb(197, 35, 35);
 }
 
 select {
