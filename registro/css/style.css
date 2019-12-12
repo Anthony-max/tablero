@@ -87,11 +87,11 @@ select {
     border: none;
  }
 
- select:focus{ outline: none;}
+ 
 
 .custom-select
 {
-    width:50px;
+    width:65px;
     margin-top:10px;
     background: white;
     color:rgb(150, 1, 1);
